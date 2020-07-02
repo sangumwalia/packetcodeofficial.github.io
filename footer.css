@@ -1,0 +1,36 @@
+
+.footer{
+
+}
+.footer td {padding-top: 10;}
+.footer a {text-decoration: none;}
+.footer li {list-style: none;}
+
+.footerHome {
+background-color:dimgrey;
+}
+.footerHome td {padding-top: 10;}
+.footerHome a {text-decoration: none;}
+.footerHome li {list-style: none;}
+
+button{
+	background-color: cyan;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}

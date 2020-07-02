@@ -1,0 +1,43 @@
+
+.imgContainer {
+  position: relative;
+}
+.imgOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparante;
+}
+.imgContainer:hover .imgOverlay {
+  opacity: 1;
+}
+.imgContainer img{width:100%;}
+.imgText {
+  color:  white;
+  font-size: 25px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.imgContainer a:link, .imgContainer a:visited {
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.imgContainer a:hover,.imgContainer a:active {
+  background-color: red;
+  transition:scale(-1,0);
+}
